@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var className=@ViewBag.OrganName;
+    var ContentToView=@ViewBag.Desc;
+}
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/Style/humanBody.css" asp-append-version="true" />
+
+
+<style>
+    body{
+        color:white;
+    }
+
+      
+</style>
+</head>
+
+<body>
+
+<div class="text-center">
+
+    <div class="Container" >
+        <div class="pageDivider">
+            <div class="bodyInfo" >
+              <h1 id="organTitle">
+
+              </h1 >
+                    <p id="nadood"></p>
+            </div>
+
+            <section class="humanShape">
+                <div class="humanBody">
+                    <div class="allOrgans">
+                            <div class="upperOrgans " id="nada">
+                                <a class="organ brain" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "brain" })"></a>
+                                <a class="organ eye" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "eye" })"></a>
+                                <a class="organ nose" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "nose" })"></a>
+                                <a class="organ lung" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "lung" })"></a>
+                                <a class="organ heart" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "heart" })"></a>
+                        </div>
+                        <div class="intermediateOrgans">
+                                <a class="organ intestine" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "intestine" })"></a>
+                                <a class="organ kidney" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "kidney" })"></a>
+                                <a class="organ liver" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "liver" })"></a>
+                                <a class="organ stomach" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "stomach" })"></a>
+                        </div>
+                        <div class="lowerOrgans">
+                                <a class="organ femur" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "femur" })"></a>
+                                <a class="organ fibula_tibia" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "fibula_tibia" })"></a>
+                                <a class="organ foot" href="@Url.Action( "GetOrganInfo","Human", new { OrganName = "foot" })"></a>
+                        </div>
+                    </div>
+
+                    <img id="myHuman" src="~/Images/humanBody.png" alt="humanBodyWithOrgans">
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+        const organTitle = document.getElementById("organTitle");
+        const bodyInfo = document.getElementById("nadood");
+
+        console.log(bodyInfo);
+
+       
+        const organs = document.querySelectorAll(".organ");
+        const SearchValue = "@className";
+        const whatToAdd = "@ContentToView";
+
+        organs.forEach((organ) => {
+            if (organ.classList.contains(SearchValue) ) {
+                organTitle.innerHTML=SearchValue;
+                bodyInfo.innerHTML = whatToAdd;
+            }
+        });
+</script>
+</body>

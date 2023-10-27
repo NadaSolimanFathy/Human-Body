@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,400&family=Playfair+Display&family=Quicksand:wght@600&family=Saira+Condensed:wght@500&display=swap');
+
+.pageDivider {
+  background-color: black;
+  /* overflow-y: scroll; */
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+
+.bodyInfo {
+    font-size: 50px;
+    grid-column: 1/2;
+    padding: 10vh 0 0 10vh;
+    display: grid;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+    .bodyInfo p,
+    .bodyInfo h1 {
+        color: #cfcdce;
+    }
+
+    .bodyInfo h1 {
+        font-size: 70px;
+        margin-bottom: 0px;
+        height: 100px;
+    }
+
+    .bodyInfo p {
+        font-size: 50px;
+
+    }
+
+
+.humanShape {
+  grid-column: 2/3;
+}
+
+.humanBody {
+  position: relative;
+  height: 90%;
+  width: 90%;
+ 
+  margin-top: 10vh;
+  margin-right: 0;
+}
+
+.allOrgans {
+  position: absolute;
+  height: 80%;
+  width: 50%;
+  left: 12.5vw;
+  top: 5%;
+  z-index: 1;
+}
+
+.humanBody img {
+  height: 100%;
+  width: 100%;
+
+  filter: contrast(120%);
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .bodyInfo h1 {
+    font-size: 60px;
+  }
+
+  .bodyInfo p {
+    font-size: 27px;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .bodyInfo h1 {
+    font-size: 55px;
+  }
+
+  .bodyInfo p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bodyInfo h1 {
+    font-size: 55px;
+  }
+
+  .bodyInfo p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bodyInfo h1 {
+    font-size: 45px;
+  }
+
+  .bodyInfo p {
+    font-size: 18px;
+  }
+}
+
+
+.intestine,
+.lung,
+.heart,
+.liver,
+.femur,
+.fibula_tibia,
+.foot,
+.kidney,
+.brain,
+.eye,
+.nose,
+.stomach {
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+  /* border: 1px solid white; */
+
+}
+
+.brain {
+  width: 15%;
+  height: 5.5%;
+  top: -2%;
+  left: 55%;
+}
+
+.nose {
+  width: 5%;
+  height: 3%;
+  top: 7.9%;
+  left: 55%;
+}
+
+.eye {
+  width: 25%;
+  height: 3%;
+  top: 5.3%;
+  left: 45%;
+}
+
+
+.intestine {
+  width: 20%;
+  height: 8%;
+  top: 40%;
+  left: 37%;
+}
+
+.kidney {
+  width: 10%;
+  height: 5%;
+  top: 36%;
+  left: 60%;
+}
+
+.lung {
+  width: 15%;
+  height: 10%;
+  top: 23%;
+  left: 65%;
+  /* background-color: black; */
+  clip-path: ellipse(25% 40% at 50% 50%);
+}
+
+.heart {
+  width: 15%;
+  height: 5.5%;
+  top: 25%;
+  left: 50%;
+}
+
+.liver {
+  width: 25%;
+  height: 4%;
+  top: 31%;
+  left: 40%;
+  transform: rotate(150deg);
+}
+
+.stomach {
+  width: 25%;
+  height: 4%;
+  top: 33%;
+  left: 48%;
+  transform: rotate(150deg);
+}
+
+.femur {
+  width: 20%;
+  height: 35%;
+  top: 50%;
+  left: 60%;
+  transform: rotate(190deg);
+}
+
+.fibula_tibia {
+  width: 20%;
+  height: 25%;
+  top: 83%;
+  left: 35%;
+  transform: rotate(-22deg);
+}
+
+.foot {
+  width: 20%;
+  height: 12%;
+  top: 105%;
+  left: 50%;
+  transform: rotate(25deg);
+}

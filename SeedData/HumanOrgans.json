@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "brain",
+    "Description": "is a complex organ that controls thought, memory, emotion, touch, motor skills, vision, breathing, temperature, hunger and every process that regulates our body. Together, the brain and spinal cord that extends from it make up the central nervous system, or CNS."
+  },
+  {
+    "Name": "eye",
+    "Description": "Eyes are organs of the visual system. They provide living organisms with vision, the ability to receive and process visual detail, as well as enabling several photo response functions that are independent of vision. Eyes detect light and convert it into electro-chemical impulses in neurons (neurones)."
+  },
+  {
+    "Name": "nose",
+    "Description": "Your nose is part of your respiratory system. It allows air to enter your body, then filters debris and warms and moistens the air. Your nose gives you a sense of smell and helps shape your appearance. Many common symptoms affect your nose, such as a stuffy nose and nosebleed."
+  },
+  {
+    "Name": "lung",
+    "Description": "Your lungs bring fresh oxygen into your body. They remove the carbon dioxide and other waste gases that your body's doesn't need. To breathe in (inhale), you use the muscles of your rib cage – especially the major muscle, the diaphragm. Your diaphragm tightens and flattens, allowing you to suck air into your lungs. "
+  },
+  {
+    "Name": "heart",
+    "Description": "The heart is a fist-sized organ that pumps blood throughout your body. It's the primary organ of your circulatory system. Your heart contains four main sections (chambers) made of muscle and powered by electrical impulses. Your brain and nervous system direct your heart's function."
+  },
+  {
+    "Name": "intestine",
+    "Description": "The intestines are a long, continuous tube running from the stomach to the anus ,Its main purpose is to digest food. But the intestine is not only there for digestion: it also produces various substances that carry messages to other parts of the body, and plays an important role in fighting germs and regulating the body's water balance."
+  },
+  {
+    "Name": "kidney",
+    "Description": "The kidneys are two bean-shaped organs, each about the size of a fist. They are located just below the rib cage, one on each side of your spine. Healthy kidneys filter about a half cup of blood every minute, removing wastes and extra water to make urine."
+  },
+  {
+    "Name": "liver",
+    "Description": "The liver holds about one pint (13%) of the body's blood supply at any given moment. The liver consists of 2 main lobes. Both are made up of 8 segments that consist of 1,000 lobules (small lobes). These lobules are connected to small ducts (tubes) that connect with larger ducts to form the common hepatic duct."
+  },
+  {
+    "Name": "stomach",
+    "Description": "is an important organ and the most dilated portion of the digestive system. The esophagus precedes it, and the small intestine follows. It is a large, muscular, and hollow organ allowing for a capacity to hold food. It is comprised of 4 main regions, the cardia, fundus, body, and pylorus."
+  },
+  {
+    "Name": "femur",
+    "Description": "What is the femur? The femur is your thigh bone. It's the longest, strongest bone in your body. It's a critical part of your ability to stand and move. Your femur also supports lots of important muscles, tendons, ligaments and parts of your circulatory system."
+  },
+  {
+    "Name": "fibula_tibia",
+    "Description": "The tibia and fibula are the two long bones in the lower leg. They connect the knee and ankle, but they are separate bones. The tibia is the shinbone, the larger of the two bones in the lower leg."
+  },
+  {
+    "Name": "foot",
+    "Description": "The foot has 28 bones, including 14 phalanges, 7 tarsal bones (talus, calcaneus, cuboid, navicular, and 3 cuneiforms), 5 metatarsals, and 2 sesamoids. The hindfoot connects to the midfoot at the midtarsal (Chopart) joint. The midfoot connects to the forefoot at the Lisfranc joint."
+  }
+]
